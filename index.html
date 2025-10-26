@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Mein Portfolio</h1>
+    <div class="projekt-box">
+        <h2>Über mich</h2>
+        <p>das ist meine erste Seite mit Copitot erstellt.</p>
+    </div>
+    <div class="projekt-box">
+        <h2>Meine Projekte</h2>
+
+        <!-- Neu: Formular zum Hinzufügen -->
+        <form id="projectForm">
+            <input type="text" id="projectInput" placeholder="Neues Projekt" required>
+            <button type="submit">Hinzufügen</button>
+        </form>
+
+        <!-- Neu: Liste -->
+        <ul id="projectList"></ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

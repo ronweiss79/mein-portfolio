@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+.projekt-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+}
+h1 { color: #333; }
+
+/* Neue Styles */
+#projectForm {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+#projectForm input {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+}
+#projectForm button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+#projectList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 6px;
+    border-bottom: 1px solid #eee;
+}
+.project-item .title.done {
+    text-decoration: line-through;
+    color: #888;
+}
+.btn {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.btn.toggle {
+    background: #4caf50;
+    margin-right: 8px;
+}
